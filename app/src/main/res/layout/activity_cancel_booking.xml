@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5d271"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:id="@+id/booking_summary_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No bookings yet....."
+        android:textSize="16sp"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:inputType="textMultiLine"
+        android:maxLines="6" />
+
+
+    <Button
+        android:id="@+id/confirm_cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Booking"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@color/white" />
+</LinearLayout>
